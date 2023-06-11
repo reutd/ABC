@@ -5,6 +5,9 @@ single cell sequencing datasets. This method removes batch effects through a gui
 using supervised cell type classifier branches for biological signal retention. It aligns the different batches
 using an adversarial training approach.
 
+A detailed comparison between ABC and other integration methods, including the scripts
+needed to reproduce the results, can be found at:
+https://github.com/reutd/ABC-Reproducibility
 
 ## Installation 
 
@@ -14,7 +17,9 @@ pip install git+https://github.com/reutd/ABC.git
 ```
 
 ## Usage
-The model takes an anndata object and two string variables: batch_label and type_label representing the batch label and cell type label keys into anndata.obs.
+The model takes an annotated anndata object (cell type and batch label annotations needed) and 
+two string variables: batch_label and type_label representing the batch label and cell type label 
+keys into anndata.obs.
 Please make sure to use preprocessed data after normalization and log1 transformation. (for example using the scanpy methods sc.pp.normalize_total and sc.pp.log1p).
 
 First, create the ABC model:

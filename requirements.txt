@@ -12,3 +12,4 @@ scikit-learn==1.0.2
 scikit-misc==0.1.4
 scipy==1.8.0
 tensorflow==2.8.0
+matplotlib==3.6
