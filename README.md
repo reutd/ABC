@@ -10,6 +10,7 @@ needed to reproduce the results, can be found at:
 https://github.com/reutd/ABC-Reproducibility
 
 ## Installation 
+Please use python 3.9
 
 ```bash
 pip install git+https://github.com/reutd/ABC.git
