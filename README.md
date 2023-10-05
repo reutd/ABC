@@ -9,8 +9,7 @@ A detailed comparison between ABC and other integration methods, including the s
 needed to reproduce the results, can be found at:
 https://github.com/reutd/ABC-Reproducibility
 
-## Installation 
-Please use python 3.9
+## Installation
 
 ```bash
 pip install git+https://github.com/reutd/ABC.git
@@ -31,7 +30,7 @@ then remove batch effects using:
 ```bash
 integrated = model.batch_correction()
 ```
-integrated will hold a new anndata object with the corrected values.
+integrated will hold a new anndata object with the corrected embeddings.
 
 
 ## Example
