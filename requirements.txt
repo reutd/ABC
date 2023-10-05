@@ -12,11 +12,7 @@ scikit-learn==1.0.2
 scikit-misc==0.1.4
 scipy==1.8.0
 tensorflow==2.8.0
-
-
-
 cachetools==5.0.0
-
 cffi==1.15.0
 charset-normalizer==2.0.12
 colorama==0.4.4
@@ -25,7 +21,6 @@ cycler==0.11.0
 Cython==0.29.30
 debugpy==1.6.0
 decorator==5.1.1
-
 Deprecated==1.2.13
 docrep==0.3.2
 dunamai==1.11.1
