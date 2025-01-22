@@ -9,6 +9,9 @@ A detailed comparison between ABC and other integration methods, including the s
 needed to reproduce the results, can be found at:
 https://github.com/reutd/ABC-Reproducibility
 
+Paper publication:
+https://doi.org/10.1093/bioadv/vbad186
+
 ![Model Architecture](Model_Architecture.png)
 
 ## Installation
