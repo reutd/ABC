@@ -9,6 +9,8 @@ A detailed comparison between ABC and other integration methods, including the s
 needed to reproduce the results, can be found at:
 https://github.com/reutd/ABC-Reproducibility
 
+![Model Architecture](Model_Architecture.png)
+
 ## Installation
 
 ```bash
